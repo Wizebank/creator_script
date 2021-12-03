@@ -1,6 +1,7 @@
 .wb-main-container {
   display: flex;
   align-items: center;
+  margin-bottom: 22px;
 }
 
 .wb-text,
@@ -15,6 +16,7 @@
 
 .wb-text {
   padding: 16px 22px;
+  margin-right: 33px;
 }
 
 .wb-cta-payment-plans {
@@ -30,5 +32,9 @@
   .wb-image {
     width: 80%;
     padding: 16px 11px;
+  }
+
+  .wb-text {
+    margin-right: 0;
   }
 }
