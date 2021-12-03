@@ -1,4 +1,4 @@
-import header from './blocks/header';
+import cta from './blocks/cta';
 import main from './blocks/main';
 
 function wizebank() {
@@ -18,7 +18,22 @@ function wizebank() {
   }
 
   if (activateScript) {
-    header();
+    const productList = document
+      .getElementsByClassName('product-list')[0];
+      
+    if (productList && productList.children.length > 1) {
+      const lastChild = productList.lastElementChild;
+
+      if (
+        lastChild && 
+        lastChild.lastElementChild && 
+        lastChild.lastElementChild.innerText.includes('payment')
+      ) {
+        lastChild.remove();
+      }
+    }
+
+    cta();
     main();
   }
 }
