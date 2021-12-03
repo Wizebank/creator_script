@@ -6,6 +6,7 @@ function wizebank() {
   const currentURL = window.location.pathname;
   const allowList = [
     'dist/index.html',
+    '/',
     '/p/trade-and-travel-pro',
     '/p/consulting-and-coaching-for-traders'
   ];
