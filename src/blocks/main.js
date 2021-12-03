@@ -1,12 +1,17 @@
 import Vue from 'vue';
 import insertAfter from '../helpers/insert_after_html';
 
-function mainCtor() {
+function mainCtor(checkoutUrl) {
   Vue.component('wizebank-main', {
+    data() {
+      return {
+        checkoutUrl
+      }
+    },
     template: `
       <div class="wb-main-container course-block block">
         <div class="container" style="display: flex; align-items: center; width: 100%;">
-          <div class="wb-text" style="padding: 16px; width: 50%;">
+          <div class="wb-text" style="padding: 22px; width: 50%;">
             <h3 style="text-align: center;">
               <strong>
                 Make easy monthly payments with Wizebank
@@ -30,9 +35,9 @@ function mainCtor() {
         </div>
 
         <div style="display: flex; justify-content: center;">
-          <button class="btn btn-hg btn-secondary btn-enroll">
+          <a target="_blank" rel="noopener noreferrer" :href="checkoutUrl" class="btn btn-hg btn-secondary btn-enroll">
             See Payment Plans
-          </button>
+          </a>
         </div>
       </div>
     `,

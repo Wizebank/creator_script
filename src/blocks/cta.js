@@ -1,8 +1,13 @@
 import Vue from 'vue';
 import insertAfter from '../helpers/insert_after_html';
 
-function headerCtor() {
+function headerCtor(checkoutUrl) {
   Vue.component('wizebank-header', {
+    data() {
+      return {
+        checkoutUrl
+      }
+    },
     template: `
       <div class="wb-header-container">
         <div class="container">
@@ -13,7 +18,7 @@ function headerCtor() {
           <p style="text-align: center;">
             Payment Plans as Low as $208/month.
           
-            <a href="https://app.wizebank.co" target="_blank" rel="noopener noreferrer">
+            <a :href="checkoutUrl" target="_blank" rel="noopener noreferrer">
               Learn More!
             </a>
           </p>
