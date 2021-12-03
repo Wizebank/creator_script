@@ -53,4 +53,7 @@ function wizebank() {
   }
 }
 
-wizebank();
+window.addEventListener('load', function () {
+  console.log('Wizebank script loaded');
+  wizebank();
+})
