@@ -5,17 +5,19 @@ function headerCtor() {
   Vue.component('wizebank-header', {
     template: `
       <div class="wb-header-container">
-        <h2>
-          Get Started Now!
-        </h2>
-  
-        <p>
-          Payment Plans as Low as $208/month.
-        
-          <a href="https://app.wizebank.co" target="_blank" rel="noopener noreferrer">
-            Learn More!
-          </a>
-        </p>
+        <div class="container">
+          <h2 style="text-align: center;">
+            Get Started Now!
+          </h2>
+    
+          <p style="text-align: center;">
+            Payment Plans as Low as $208/month.
+          
+            <a href="https://app.wizebank.co" target="_blank" rel="noopener noreferrer">
+              Learn More!
+            </a>
+          </p>
+        </div>
       </div>
     `
   });
