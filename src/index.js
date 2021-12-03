@@ -55,5 +55,9 @@ function wizebank() {
 }
 
 window.addEventListener('load', function () {
-  wizebank();
+  window.wizebank();
 })
+
+if (!window.wizebank) {
+  window.wizebank = wizebank;
+};
