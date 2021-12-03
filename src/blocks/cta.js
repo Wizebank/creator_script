@@ -10,12 +10,12 @@ function headerCtor(checkoutUrl) {
     },
     template: `
       <div class="wb-header-container">
-        <div class="container">
-          <h2 style="text-align: center;">
+        <div class="container text-center">
+          <h2>
             Get Started Now!
           </h2>
     
-          <p style="text-align: center;">
+          <p>
             Payment Plans as Low as $208/month.
           
             <a :href="checkoutUrl" target="_blank" rel="noopener noreferrer">

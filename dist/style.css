@@ -1,0 +1,34 @@
+.wb-main-container {
+  display: flex;
+  align-items: center;
+}
+
+.wb-text,
+.wb-image {
+  width: 50%;
+  text-align: center;
+}
+
+.wb-image img {
+  width: 100%;
+}
+
+.wb-text {
+  padding: 16px 22px;
+}
+
+.wb-cta-payment-plans {
+  text-align: center;
+}
+
+@media all and (max-width: 930px) {
+  .wb-main-container {
+    flex-direction: column;
+  }
+  
+  .wb-text,
+  .wb-image {
+    width: 80%;
+    padding: 16px 11px;
+  }
+}
