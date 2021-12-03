@@ -19,11 +19,12 @@ function mainCtor(checkoutUrl) {
               </strong>
             </h3>
 
+            <br>
+
             <p class="text-center">
-              "I'm so excited to announce our partnership with Wizebank
-              so you can pay at your own pace. Interested in a Trade and
-              Travel program? Just use Wizebank to easily split the cost
-              into easy monthly payments with no added fees or interest."
+              "I'm so excited to announce our partnership with Wizebank so you can pay at your own pace. Interested in a Trade and
+              Travel program? Just use <a href="https://wizebank.co/teri" target="_blank" rel="noopener noreferrer">Wizebank</a>
+              to easily split the cost into easy monthly payments with no added fees or interest."
             </p>
           </div>
   
@@ -39,7 +40,7 @@ function mainCtor(checkoutUrl) {
         <br>
 
         <div class="text-center">
-          <a target="_blank" rel="noopener noreferrer" :href="checkoutUrl" class="btn btn-hg btn-secondary btn-enroll">
+          <a target="_blank" rel="noopener noreferrer" :href="checkoutUrl" class="btn btn-hg btn-primary btn-enroll">
             See Payment Plans
           </a>
         </div>

@@ -7,6 +7,7 @@ function wizebank() {
   const allowList = [
     'dist/index.html',
     '/p/trade-and-travel-pro',
+    '/p/consulting-and-coaching-for-traders'
   ];
 
   for (let i = 0; i < allowList.length; i++) {

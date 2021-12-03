@@ -16,10 +16,10 @@ function headerCtor(checkoutUrl) {
           </h2>
     
           <p>
-            Payment Plans as Low as $208/month.
+            Payment Plans as LOW as $208/Month.
           
             <a :href="checkoutUrl" target="_blank" rel="noopener noreferrer">
-              Learn More!
+              Learn More Here!
             </a>
           </p>
         </div>
