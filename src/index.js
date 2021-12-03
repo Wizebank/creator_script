@@ -36,6 +36,7 @@ function wizebank() {
     }
 
     const pages = [
+      { name: '/', productId: 'e5474fee-f41c-4b97-9e90-058efeb1fddc' },
       { name: 'trade-and-travel-pro', productId: 'e5474fee-f41c-4b97-9e90-058efeb1fddc' },
       { name: 'consulting-and-coaching-for-traders' , productId: 'ffd55f19-cda1-4f50-be23-f084f14c04df' },
     ];
@@ -45,7 +46,7 @@ function wizebank() {
     const product = pages.find(p => currentUrl.includes(p.name)) || null;
     const productUrl = product ? '?productId=' + product.productId : '';
 
-    const checkoutUrl = projectUrl + productUrl
+    const checkoutUrl = projectUrl + productUrl;
 
     cta(checkoutUrl);
     main(checkoutUrl);
