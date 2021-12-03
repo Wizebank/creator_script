@@ -2,6 +2,7 @@ import cta from './blocks/cta';
 import main from './blocks/main';
 
 function wizebank() {
+  console.info('Wizebank script loaded');
   let activateScript = false;
   const currentURL = window.location.pathname;
   const allowList = [
@@ -54,6 +55,5 @@ function wizebank() {
 }
 
 window.addEventListener('load', function () {
-  console.log('Wizebank script loaded');
   wizebank();
 })
