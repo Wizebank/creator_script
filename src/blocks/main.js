@@ -31,7 +31,7 @@ function mainCtor(checkoutUrl) {
           <div class="wb-image">
             <img
               style="width: 100%;" 
-              src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa515181-1106-4387-98bd-6d1a28dcc1ab/teri-ijeom-on-laptop-jouney-to-launch.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211203T041235Z&X-Amz-Expires=86400&X-Amz-Signature=5c39a5ba16df4f322e607e25547f7d12584ff9d726ec87f5c890643df87ab0fc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22teri-ijeom-on-laptop-jouney-to-launch.jpeg%22&x-id=GetObject"
+              src="https://treefort.sfo2.digitaloceanspaces.com/images/teri-ijeom-on-laptop-jouney-to-launch.jpeg"
             />
           </div>
         </div>
