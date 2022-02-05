@@ -36,6 +36,9 @@ function wizebank() {
       }
     }
 
+    const specialOffer = document.getElementsByClassName('product_2405971')[0]
+    if (specialOffer) specialOffer.remove();
+
     const pages = [
       { name: '/', productId: 'e5474fee-f41c-4b97-9e90-058efeb1fddc' },
       { name: 'trade-and-travel-pro', productId: 'e5474fee-f41c-4b97-9e90-058efeb1fddc' },
